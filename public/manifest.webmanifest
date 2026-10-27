@@ -1,0 +1,17 @@
+{
+  "name": "Babylon Template",
+  "short_name": "Babylon Template",
+  "description": "Babylon Template",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
