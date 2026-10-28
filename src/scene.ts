@@ -17,5 +17,12 @@ export function createScene() {
 
   camera.position.z = 5;
 
+  // development helpers
+  if (import.meta.env.DEV) {
+    scene.add(new THREE.AxesHelper(2));
+    scene.add(new THREE.GridHelper(10, 10));
+    scene.add(new THREE.CameraHelper(camera));
+  }
+
   return { scene, camera, cube };
 }
