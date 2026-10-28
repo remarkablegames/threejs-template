@@ -12,8 +12,8 @@ export default defineConfig({
         codeSplitting: {
           groups: [
             {
-              name: 'babylon',
-              test: /node_modules[\\/]@babylonjs[\\/]core/,
+              name: 'three',
+              test: /node_modules[\\/]three[\\/]/,
             },
           ],
         },
