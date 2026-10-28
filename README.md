@@ -1,23 +1,23 @@
 <p align="center">
-  <img src="public/logo.svg" width="250" alt="Babylon Template">
+  <img src="public/logo.svg" width="250" alt="Three.js Template">
 </p>
 
-# Babylon Template
+# Three.js Template
 
-[![release](https://img.shields.io/github/v/release/remarkablegames/babylon-template)](https://github.com/remarkablegames/babylon-template/releases)
-[![build](https://github.com/remarkablegames/babylon-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/babylon-template/actions/workflows/build.yml)
+[![release](https://img.shields.io/github/v/release/remarkablegames/threejs-template)](https://github.com/remarkablegames/threejs-template/releases)
+[![build](https://github.com/remarkablegames/threejs-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/threejs-template/actions/workflows/build.yml)
 
-<kbd>babylon-template</kbd> is a template for building [Babylon.js](https://github.com/BabylonJS/Babylon.js) games.
+<kbd>threejs-template</kbd> is a template for building [Three.js](https://threejs.org/) games.
 
 Play in your browser:
 
-- [remarkablegames](https://remarkablegames.org/babylon-template/)
+- [remarkablegames](https://remarkablegames.org/threejs-template/)
 
 Or download for desktop:
 
-- [Windows](https://github.com/remarkablegames/babylon-template/releases/latest/download/windows.zip)
-- [macOS](https://github.com/remarkablegames/babylon-template/releases/latest/download/macos.zip)
-- [Linux](https://github.com/remarkablegames/babylon-template/releases/latest/download/linux.zip)
+- [Windows](https://github.com/remarkablegames/threejs-template/releases/latest/download/windows.zip)
+- [macOS](https://github.com/remarkablegames/threejs-template/releases/latest/download/macos.zip)
+- [Linux](https://github.com/remarkablegames/threejs-template/releases/latest/download/linux.zip)
 
 ## Prerequisites
 
@@ -32,8 +32,8 @@ brew install nvm
 Clone the repository:
 
 ```sh
-git clone https://github.com/remarkablegames/babylon-template.git
-cd babylon-template
+git clone https://github.com/remarkablegames/threejs-template.git
+cd threejs-template
 ```
 
 Install the dependencies:
@@ -45,11 +45,11 @@ npm install
 Rename the project:
 
 ```sh
-git grep -l babylon-template | xargs sed -i '' -e 's/babylon-template/my-game/g'
+git grep -l threejs-template | xargs sed -i '' -e 's/threejs-template/my-game/g'
 ```
 
 ```sh
-git grep -l 'Babylon Template' | xargs sed -i '' -e 's/Babylon Template/My Game/g'
+git grep -l 'Three.js Template' | xargs sed -i '' -e 's/Three.js Template/My Game/g'
 ```
 
 Update the files:

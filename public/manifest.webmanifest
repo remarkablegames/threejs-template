@@ -1,7 +1,7 @@
 {
-  "name": "Babylon Template",
-  "short_name": "Babylon Template",
-  "description": "Babylon Template",
+  "name": "Three.js Template",
+  "short_name": "Three.js Template",
+  "description": "Three.js Template",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#000000",

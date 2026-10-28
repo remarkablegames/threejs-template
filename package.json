@@ -1,5 +1,5 @@
 {
-  "name": "babylon-template",
+  "name": "threejs-template",
   "private": true,
   "version": "1.0.0-alpha",
   "scripts": {
@@ -13,7 +13,7 @@
     "preview": "vite preview",
     "start": "vite --open"
   },
-  "homepage": "https://remarkablegames.org/babylon-template/",
+  "homepage": "https://remarkablegames.org/threejs-template/",
   "dependencies": {
     "@babylonjs/core": "9.32.1",
     "@babylonjs/inspector": "9.32.1",
