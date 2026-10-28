@@ -18,7 +18,8 @@
     "@babylonjs/core": "9.32.1",
     "@babylonjs/inspector": "9.32.1",
     "jsx-dom": "8.1.6",
-    "tailwindcss": "4.3.3"
+    "tailwindcss": "4.3.3",
+    "three": "0.186.1"
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.4",
