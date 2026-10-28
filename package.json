@@ -13,10 +13,7 @@
     "preview": "vite preview",
     "start": "vite --open"
   },
-  "homepage": "https://remarkablegames.org/threejs-template/",
   "dependencies": {
-    "@babylonjs/core": "9.32.1",
-    "@babylonjs/inspector": "9.32.1",
     "jsx-dom": "8.1.6",
     "tailwindcss": "4.3.3",
     "three": "0.186.1"
@@ -27,6 +24,7 @@
     "@eslint/js": "10.0.1",
     "@tailwindcss/vite": "4.3.3",
     "@types/node": "26.6.5",
+    "@types/three": "0.186.0",
     "eslint": "10.13.0",
     "eslint-plugin-prettier": "5.5.7",
     "eslint-plugin-simple-import-sort": "14.0.0",
